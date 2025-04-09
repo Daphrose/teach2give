@@ -1,0 +1,116 @@
+body{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f2f2f2; 
+    
+}
+
+
+.comment{
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.rate{
+    margin-left: 30px;
+    margin-top: 20px;
+    background: rgba(44, 24, 61, 0.6);
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+.rate:hover{
+    background: #ffff;
+    color: rgb(176, 25, 25);
+}
+#box1{
+    display: none;
+    border: 1px solid black;
+    padding: 100px;
+    background: rgb(183, 193, 236);
+}
+#box{
+    position: relative;
+    border: 1px solid black;
+    width: 600px;
+    height: 300px;
+    border-radius: 4px;
+    padding:20px 10px 20px 10px;
+    background:rgb(31, 16, 44);
+    color: #ffff;
+    
+}
+.first{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.discard {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    background-color:rgb(31, 16, 44);;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+}
+.discard:hover{
+    background: #ffff;
+    color: bisque;
+}
+.label{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 30px 40px;
+    font-size: 14px;
+    
+}
+.sub{
+    color: #ffff;
+    background: #7600bc;
+    padding: 5px;
+    border-radius: 2px;
+}
+.sub:hover{
+    background: #ffff;
+    color: rgb(176, 25, 25);
+}
+.can{
+    color: #ffff;
+    background: rgb(31, 16, 44);
+    
+}
+.can:hover{
+    background: #ffff;
+    color: rgb(176, 25, 25);
+}
+.selected {
+    background-color: #ffff;
+    color: black;
+}
+@media (min-width: 300px) and (max-width: 620px) {
+
+    #box{
+        width: 300px;
+        height: 400px;
+        background: rgb(31, 16, 44);
+        font-size: 10px;
+    }
+    #box1{
+        width: 500px;
+    }
+}
